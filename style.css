@@ -1,0 +1,66 @@
+body {
+    display:flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgba(255, 242, 225, 1), rgba(255, 242, 225, 0.5) );
+
+    position: relative;
+    font-family: Geneva, Verdana, sans-serif;
+    width: 100vw;
+}
+
+#main {
+    margin:auto;
+    position:relative;
+    
+}
+
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#x-axis {
+    font-size: 14px;
+}
+
+#y-axis {
+    font-size: 12px;
+}
+
+.cell{
+    outline: none;
+}
+
+.cell:hover{
+    outline: 2px rgb(0, 0, 0) solid;
+}
+
+#tooltip {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    margin-top: 25px;
+}
+
+#legend {
+
+    position:absolute;
+    left: 5vw;
+    top: 800px;
+
+    width: 321px;
+    height: 100px;
+}
+
+#legend-x-axis {
+    font-size: 13px;
+}
